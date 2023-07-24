@@ -15,7 +15,7 @@ const db = mysql.createPool({
   database: process.env.DB_NAME,
   ssl: {
     rejectUnauthorized: false,
-    ca: fs.readFileSync('/Users/zhengyuzhang/Downloads/DigiCertGlobalRootG2.crt.pem')
+    ca: fs.readFileSync('./DigiCertGlobalRootG2.crt.pem')
   }
 });
 module.exports = db;
