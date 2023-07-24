@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/fd7c2630-f5a3-4456-9098-d9cb1d7299d7/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/annotationServer",
+    "appService.deploySubpath": "."
+}
